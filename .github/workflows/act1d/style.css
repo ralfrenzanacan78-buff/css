@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+.parent-navigation{
+    border:none;
+    padding: 5px;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(44, 33, 67, 0.637);
+}
+.children-nav{
+    border:none
+}
+.children-nav{
+    color: white;
+}
+.children-nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.logo{
+    height: 60px;
+}
+.parent-header{
+    border: 1px solid black;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.children-header{
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
